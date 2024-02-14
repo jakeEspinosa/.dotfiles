@@ -1,0 +1,5 @@
+[user]
+	name = Jake Espinosa
+	email = jacob.sa.espinosa@gmail.com
+[core]
+	editor = code --wait
