@@ -122,3 +122,4 @@ export NVM_DIR="$HOME/.nvm"
 
 # custom aliases
 alias tmux="tmux new source-file ~/.tmux.conf attach -t prod\; a -t prod"
+alias show="ansible-vault view"
