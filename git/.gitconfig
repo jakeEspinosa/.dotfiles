@@ -3,3 +3,5 @@
 	email = jacob.sa.espinosa@gmail.com
 [core]
 	editor = code --wait
+[init]
+	defaultBranch = main
