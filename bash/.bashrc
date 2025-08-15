@@ -116,10 +116,6 @@ if ! shopt -oq posix; then
   fi
 fi
 
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
-
 # custom aliases
 alias tmux="tmux new source-file ~/.tmux.conf attach -t prod\; a -t prod"
 alias show="ansible-vault view"
@@ -130,6 +126,6 @@ if [ -d "$FNM_PATH" ]; then
   eval "`fnm env`"
 fi
 
-export PATH="$PATH:/opt/nvim-linux-x86_64/bin"
+export PATH="$PATH:~/.local/bin"
 
 . "$HOME/.local/bin/env"
