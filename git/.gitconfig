@@ -3,8 +3,7 @@
 	email = jacob.sa.espinosa@gmail.com
 [core]
 	editor = code --wait
-	autocrlf = true
-	sshCommand = 'ssh -i ~/.ssh/id_rsa'
+	sshCommand = 'ssh -i ~/.ssh/id_ed25519'
 [init]
 	defaultBranch = main
 [push]
