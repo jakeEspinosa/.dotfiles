@@ -129,3 +129,4 @@ fi
 export PATH="$PATH:~/.local/bin"
 
 . "$HOME/.local/bin/env"
+. "$HOME/.cargo/env"
